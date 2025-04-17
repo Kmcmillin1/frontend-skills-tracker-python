@@ -46,6 +46,12 @@ def skill_levels():
                 matches.append((project["title"], skill_name))
                 skill_project_map[skill_name].append(project["title"])
 
+
+
+
+
+
+    
     sorted_skills = sorted(usage_count.items(), key=lambda x: x[1], reverse=True)
     years_of_experience = {s["name"]: s["experience"] for s in skills}
     first_python_project, tries = find_first_project_with(projects, "Python")
