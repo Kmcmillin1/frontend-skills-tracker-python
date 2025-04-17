@@ -17,6 +17,9 @@ def home():
     }
     return render_template('index.html', tracker=tracker)
 
+
+#this is an edit to the code to shasjfndjkfnosdhfosdnflodkshn
+
 @app.route('/health')
 def health():
     try:
